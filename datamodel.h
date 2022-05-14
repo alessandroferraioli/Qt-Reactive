@@ -23,6 +23,9 @@ class DataModel : public QObject
 
 
 public:
+    DataModel(const DataModel&) = delete;
+    DataModel& operator=(const DataModel&) = delete;
+    
     static DataModel& instance() {
         static DataModel instance;
         return instance;
@@ -35,8 +38,7 @@ public:
 
 private:
     explicit DataModel(QObject *parent = nullptr):QObject(parent){};
-    DataModel(const DataModel&) = delete;
-    DataModel& operator=(const DataModel&) = delete;
+
 
 
 
