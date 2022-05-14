@@ -1,4 +1,4 @@
-# Qt Reactive MACRO
+# Qt Reactive
 
 Really simple example on how to use a _reactive_ approach using a basic _data model_ and automatically generating signal and slot for _change_ and _set_.
 In this way as shows into [widget.cpp](widget.cpp) we can easly connect the view and the data model effortless:
