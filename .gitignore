@@ -1,31 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@alessandroferraioli 
-alessandroferraioli
-/
-TemperatureRoom
-Private
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-TemperatureRoom/.gitignore
-@alessandroferraioli
-alessandroferraioli first
-Latest commit 67b9677 on Jul 10, 2021
- History
- 1 contributor
-62 lines (51 sloc)  673 Bytes
+
   
 # C++ objects and libs
 *.slo
